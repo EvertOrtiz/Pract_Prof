@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: black;
+	font-family: Helvetica;
+	color: white;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(60,60,150,0.8);
+	padding: 20px;
+	text-align: center;
+}
+nav ul li{
+	background: #8e3f33;
+	display: inline-block;
+	margin-right: 15px;
+	padding: 10px;
+	border-radius: 16px;
+
+}
+a{
+	color:white ;
+	font-size: 18px;
+	padding: 12px;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	margin-right: 12px;
+	border-radius: 8px;
+}
+a:hover {
+	background: white;
+	color: black;
+	text-transform: scale(1.5) rotate(-5deg);
+	trasition:all 0.5s ease;
+}
+header{
+	text-align: center;
+	padding: 60px;
+	border:5px solid #44e7ff;
+	margin-top: 15px;
+}
+h1{
+	text-shadow:#0ff 2px 2px 20px;
+
+}
+figure img{
+	width: 100%;
+}
+hgroup h2{
+	margin-top: 5px:
+	text-shadow:#0ff 2px 2px 20px;
+
+}
+figcaption{
+	background: white;
+	color: black;
+	margin-left: 15px;
+	padding: 20px;
+}
+.a1, .a2, .formulario{
+	display: inline-block;
+	vertical-align: top;
+}
+.a2{
+	background: black;
+	width: 50%;
+	margin: 12px;
+}
+.a1{
+	width: 40%;
+	margin: 12px;
+
+}
+main {
+	margin-top: 15px;
+
+}
+footer{
+	background: orange;
+	margin-top: 15px;
+	padding: 20px;
+	text-align: center;
+}
+.formulario{
+	background: #035c10;
+	text-align: center;
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+input{
+	width: 100%;
+	margin-bottom: 8px;
+	height: 2em;
+	cursor: default;
+}
+legend {
+	margin-left: 3em;
+	text-align: center;
+}
+button{
+	height: 3em;
+	font-size :16px;
+	border: 3px ;
+}
+textarea{
+	width: 100%;
+}
